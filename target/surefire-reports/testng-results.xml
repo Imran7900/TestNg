@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="165846" started-at="2022-03-25T02:22:23Z" finished-at="2022-03-25T02:25:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="165846" started-at="2022-03-25T02:22:23Z" finished-at="2022-03-25T02:25:08Z">
+      <class name="testcases.LogintestNG">
+        <test-method status="PASS" signature="DataSetup()[pri:0, instance:testcases.LogintestNG@1b794e2]" name="DataSetup" is-config="true" duration-ms="5135" started-at="2022-03-25T02:22:23Z" finished-at="2022-03-25T02:22:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataSetup -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcases.LogintestNG@1b794e2]" name="setup" is-config="true" duration-ms="30258" started-at="2022-03-25T02:22:28Z" finished-at="2022-03-25T02:22:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.LogintestNG.ExternalDataTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ExternalDataTest()[pri:0, instance:testcases.LogintestNG@1b794e2]" name="ExternalDataTest" duration-ms="36191" started-at="2022-03-25T02:22:58Z" finished-at="2022-03-25T02:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExternalDataTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.LogintestNG@1b794e2]" name="TearDown" is-config="true" duration-ms="1493" started-at="2022-03-25T02:23:34Z" finished-at="2022-03-25T02:23:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcases.LogintestNG@1b794e2]" name="setup" is-config="true" duration-ms="13510" started-at="2022-03-25T02:23:36Z" finished-at="2022-03-25T02:23:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.LogintestNG.LoginSuscessTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginSuscessTest()[pri:0, instance:testcases.LogintestNG@1b794e2]" name="LoginSuscessTest" duration-ms="15334" started-at="2022-03-25T02:23:49Z" finished-at="2022-03-25T02:24:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSuscessTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.LogintestNG@1b794e2]" name="TearDown" is-config="true" duration-ms="1206" started-at="2022-03-25T02:24:05Z" finished-at="2022-03-25T02:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcases.LogintestNG@1b794e2]" name="setup" is-config="true" duration-ms="13542" started-at="2022-03-25T02:24:06Z" finished-at="2022-03-25T02:24:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.LogintestNG.Loginfailure()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Loginfailure()[pri:0, instance:testcases.LogintestNG@1b794e2]" name="Loginfailure" duration-ms="17386" started-at="2022-03-25T02:24:19Z" finished-at="2022-03-25T02:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginfailure -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.LogintestNG@1b794e2]" name="TearDown" is-config="true" duration-ms="1712" started-at="2022-03-25T02:24:37Z" finished-at="2022-03-25T02:24:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:testcases.LogintestNG@1b794e2]" name="setup" is-config="true" duration-ms="13622" started-at="2022-03-25T02:24:38Z" finished-at="2022-03-25T02:24:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.LogintestNG.ParameterizedTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ParameterizedTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.LogintestNG@1b794e2]" name="ParameterizedTest" duration-ms="13310" started-at="2022-03-25T02:24:52Z" finished-at="2022-03-25T02:25:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@avfadf.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParameterizedTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.LogintestNG@1b794e2]" name="TearDown" is-config="true" duration-ms="1499" started-at="2022-03-25T02:25:05Z" finished-at="2022-03-25T02:25:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="DataTearDown()[pri:0, instance:testcases.LogintestNG@1b794e2]" name="DataTearDown" is-config="true" duration-ms="1539" started-at="2022-03-25T02:25:07Z" finished-at="2022-03-25T02:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataTearDown -->
+      </class> <!-- testcases.LogintestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
